@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: black;
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background-color: black;
+}
+
+.container span {
+  -webkit-animation: glow 3s ease-in-out infinite;
+          animation: glow 3s ease-in-out infinite;
+}
+
+@-webkit-keyframes glow {
+  0%, 100% {
+    color: white;
+    text-shadow: 0 0 12px lime, 0 0 50px lime ,0 0 100px lime;
+  }
+  10%, 90% {
+    color: black;
+    text-shadow: none;
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    color: white;
+    text-shadow: 0 0 12px lime, 0 0 50px lime ,0 0 100px lime;
+  }
+  10%, 90% {
+    color: black;
+    text-shadow: none;
+  }
+}
+
+.container span:nth-child(2) {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s;
+}
+
+.container span:nth-child(3) {
+  -webkit-animation-delay: 0.50s;
+          animation-delay: 0.50s;
+}
+
+.container span:nth-child(4) {
+  -webkit-animation-delay: 0.75s;
+          animation-delay: 0.75s;
+}
+
+.container span:nth-child(5) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+.container span:nth-child(6) {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+}
+
+.container span:nth-child(7) {
+  -webkit-animation-delay: 1.50s;
+          animation-delay: 1.50s;
+}
+
+.container span:nth-child(8) {
+  -webkit-animation-delay: 1.75s;
+          animation-delay: 1.75s;
+}
+
+.container span:nth-child(9) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.container span:nth-child(10) {
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s;
+}
+
+.container span:nth-child(11) {
+  -webkit-animation-delay: 2.50s;
+          animation-delay: 2.50s;
+}
+/*# sourceMappingURL=sass.css.map */
